@@ -4,7 +4,8 @@ import styles from './Logo.module.css';
 const Logo = () => {
   return (
     <h1 className={styles.logo}>
-      <span className={styles.span}>_market</span>place
+      cata
+      <span className={styles.span}>log</span>
     </h1>
   );
 };

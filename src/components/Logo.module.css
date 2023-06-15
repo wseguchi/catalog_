@@ -1,8 +1,9 @@
 .logo {
   text-align: center;
   font-size: 5rem;
-  margin: 2rem auto;
+  margin: 2rem auto -1rem;
   color: #333;
+  font-weight: 700;
 }
 
 .span {
