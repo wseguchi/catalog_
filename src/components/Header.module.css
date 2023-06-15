@@ -22,5 +22,5 @@
 
 .link:hover,
 .header :global(.active) {
-  background-color: #ddd;
+  background-color: #ffc933;
 }

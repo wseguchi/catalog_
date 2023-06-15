@@ -1,6 +1,22 @@
 .footer {
   text-align: center;
-  color: #aaa;
-  height: 10rem;
-  padding-top: 5rem;
+  font-size: 0.8rem;
+  color: #333;
+  padding-top: 1rem;
+}
+
+.footer a {
+  color: #333;
+}
+
+.footer a:hover {
+  color: #f8b500;
+}
+
+.copyright {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
 }

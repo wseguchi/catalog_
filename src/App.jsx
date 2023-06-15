@@ -7,10 +7,11 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Product from './components/Product';
 import Logo from './components/Logo';
+import About from './components/About';
 
 const App = () => {
   return (
-    <>
+    <div className='container'>
       <Logo />
       <div className='App'>
         <BrowserRouter>
@@ -20,12 +21,13 @@ const App = () => {
               <Route path='/' element={<Products />} />
               <Route path='product/:id' element={<Product />} />
               <Route path='contact' element={<Contact />} />
+              <Route path='about' element={<About />} />
             </Routes>
           </div>
-          <Footer />
         </BrowserRouter>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 

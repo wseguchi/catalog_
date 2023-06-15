@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Contact.module.css';
 import image from '../img/contact.jpg';
 import Head from './Head';
+import { BiMailSend, BiPhone, BiLocationPlus } from 'react-icons/bi';
 
 const Contact = () => {
   return (
@@ -11,9 +12,18 @@ const Contact = () => {
       <div>
         <h1>Contact us at:</h1>
         <ul className={styles.dados}>
-          <li>wseguchi@gmail.com</li>
-          <li>(204) 952-4662</li>
-          <li>Winnipeg, MB</li>
+          <li>
+            <BiMailSend className={styles.icon} />
+            wseguchi@gmail.com
+          </li>
+          <li>
+            <BiPhone className={styles.icon} />
+            (204) 952-4662
+          </li>
+          <li>
+            <BiLocationPlus className={styles.icon} />
+            Winnipeg, MB
+          </li>
         </ul>
       </div>
     </section>

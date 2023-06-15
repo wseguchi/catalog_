@@ -1,7 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import styles from './Product.module.css';
 import Head from './Head';
+import { BsArrowLeftSquareFill } from 'react-icons/bs';
 
 const Product = () => {
   // States - products, loading and error
@@ -38,17 +39,24 @@ const Product = () => {
         description={`Product: ${product.nome}`}
       />
       <div>
-        {product.fotos.map((foto) => (
-          <img key={foto.src} src={foto.src} alt={foto.titulo} />
-        ))}
+        <img
+          key={product.fotos[0].src}
+          src={product.fotos[0].src}
+          alt={product.fotos[0].titulo}
+        />
       </div>
 
       <div className={styles.info}>
         <h1>{product.nome}</h1>
         <div>
-          <span className={styles.preco}>R$ {product.preco}</span>
+          <span className={styles.preco}>
+            $ {Intl.NumberFormat().format(product.preco)}
+          </span>
         </div>
         <p>{product.descricao}</p>
+        <Link to='/'>
+          <BsArrowLeftSquareFill className={styles.icon} />
+        </Link>
       </div>
     </section>
   );

@@ -8,7 +8,6 @@
 }
 
 body {
-  margin: 2rem;
   background-color: #f2f2f2;
 }
 
@@ -26,13 +25,16 @@ h1 {
   font-size: 1.6rem;
 }
 
-.App {
+.container {
   display: flex;
   flex-direction: column;
   max-width: 50rem;
   min-width: 600px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+}
+
+.App {
+  padding: 2rem;
   background-color: white;
   border-radius: 5px;
 }
