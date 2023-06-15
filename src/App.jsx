@@ -5,21 +5,27 @@ import Products from './components/Products';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Product from './components/Product';
+import Logo from './components/Logo';
 
 const App = () => {
   return (
-    <div className='App'>
-      <BrowserRouter>
-        <Header />
-        <div className='content'>
-          <Routes>
-            <Route path='/' element={<Products />} />
-            <Route path='contact' element={<Contact />} />
-          </Routes>
-        </div>
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <>
+      <Logo />
+      <div className='App'>
+        <BrowserRouter>
+          <Header />
+          <div className='content'>
+            <Routes>
+              <Route path='/' element={<Products />} />
+              <Route path='product/:id' element={<Product />} />
+              <Route path='contact' element={<Contact />} />
+            </Routes>
+          </div>
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </>
   );
 };
 

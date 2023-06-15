@@ -1,0 +1,27 @@
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.product img {
+  margin-bottom: 2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.preco {
+  padding: 0.5rem;
+  background: #91fb5d;
+  color: #017e01;
+  border-radius: 5px;
+}
+
+.descricao {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
