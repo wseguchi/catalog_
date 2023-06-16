@@ -6,8 +6,8 @@ import Head from './Head';
 const About = () => {
   return (
     <section className={`${styles.about} animeLeft`}>
-      <Head title='WM | About' description='Contact us' />
-      <img src={image} alt='Old Typewritter' />
+      <Head title='catalog_ | About' description='About this project' />
+      <img src={image} alt='Paper notebook in a black background' />
       <div>
         <h1>About</h1>
         <p>A dinamic catalog web app build with React.</p>

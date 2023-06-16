@@ -35,7 +35,7 @@ const Product = () => {
   return (
     <section className={styles.product + ' animeLeft'}>
       <Head
-        title={`WM | ${product.nome}`}
+        title={`catalog_ | ${product.nome}`}
         description={`Product: ${product.nome}`}
       />
       <div>

@@ -7,7 +7,7 @@ import { BiMailSend, BiPhone, BiLocationPlus } from 'react-icons/bi';
 const Contact = () => {
   return (
     <section className={`${styles.contact} animeLeft`}>
-      <Head title='WM | Contact' description='Contact us' />
+      <Head title='catalog_ | Contact' description='Contact us' />
       <img src={image} alt='Old Typewritter' />
       <div>
         <h1>Contact us at</h1>

@@ -16,7 +16,7 @@ const Products = () => {
 
   return (
     <section className={styles.products + ' animeLeft'}>
-      <Head title="Wildo's Marketplace" description='Marketplace' />
+      <Head title='catalog_ | Welcome' description='A catalog web app' />
       {products.map((product) => (
         <Link to={`product/${product.id}`} key={product.id}>
           <h1 className={styles.nome}>{product.nome}</h1>
