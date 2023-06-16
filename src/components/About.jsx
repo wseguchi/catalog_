@@ -10,7 +10,7 @@ const About = () => {
       <img src={image} alt='Paper notebook in a black background' />
       <div>
         <h1>About</h1>
-        <p>A dinamic catalog web app build with React.</p>
+        <p>A dinamic web app to display your catalog. Built with React.</p>
         <h1 className={styles.marginTop}>Project main goals</h1>
         <ul className={styles.dados}>
           <li>

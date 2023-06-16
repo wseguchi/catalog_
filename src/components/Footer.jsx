@@ -6,7 +6,7 @@ const Fotter = () => {
   return (
     <footer className={styles.footer}>
       <a href='https://github.com/wseguchi' target='_blank' rel='noreferrer'>
-        Designed and coded by Wildson Seguchi
+        Coded by Wildson Seguchi
       </a>
       <div className={styles.copyright}>
         <TbNoCopyright />
