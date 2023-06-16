@@ -25,7 +25,7 @@ const Product = () => {
         setLoading(false);
       }
     }
-    fetchProduct(`http://ranekapi.origamid.dev/json/api/produto/${id}`);
+    fetchProduct(`https://ranekapi.origamid.dev/json/api/produto/${id}`);
   }, [id]);
 
   if (loading) return <div className='loading'></div>;
