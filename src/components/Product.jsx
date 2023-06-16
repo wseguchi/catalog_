@@ -54,7 +54,7 @@ const Product = () => {
           </span>
         </div>
         <p>{product.descricao}</p>
-        <Link to='/'>
+        <Link to='/catalog_'>
           <BsArrowLeftSquareFill className={styles.icon} />
         </Link>
       </div>

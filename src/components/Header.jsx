@@ -7,17 +7,17 @@ const Header = () => {
     <nav className={styles.header}>
       <ul>
         <li>
-          <NavLink className={styles.link} to='/' end>
+          <NavLink className={styles.link} to='catalog_' end>
             Products
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles.link} to='contact'>
+          <NavLink className={styles.link} to='catalog_/contact'>
             Contact
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles.link} to='about'>
+          <NavLink className={styles.link} to='catalog_/about'>
             About
           </NavLink>
         </li>
