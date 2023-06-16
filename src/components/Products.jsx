@@ -7,7 +7,7 @@ const Products = () => {
   const [products, setProducts] = React.useState(null);
 
   React.useEffect(() => {
-    fetch('http://ranekapi.origamid.dev/json/api/produto')
+    fetch('https://ranekapi.origamid.dev/json/api/produto')
       .then((response) => response.json())
       .then((json) => setProducts(json));
   }, []);
