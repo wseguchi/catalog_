@@ -10,7 +10,7 @@ const Contact = () => {
       <Head title='WM | Contact' description='Contact us' />
       <img src={image} alt='Old Typewritter' />
       <div>
-        <h1>Contact us at:</h1>
+        <h1>Contact us at</h1>
         <ul className={styles.dados}>
           <li>
             <BiMailSend className={styles.icon} />
