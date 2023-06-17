@@ -29,11 +29,12 @@ h1 {
   display: flex;
   flex-direction: column;
   max-width: 50rem;
-  min-width: 600px;
+  /* min-width: 600px; */
   margin: 0 auto;
 }
 
 .App {
+  margin: 0px 0.5rem;
   padding: 2rem;
   background-color: white;
   border-radius: 5px;
@@ -64,5 +65,23 @@ h1 {
 @keyframes loading {
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 345px;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .App {
+    padding: 1.2rem 0.5rem;
   }
 }

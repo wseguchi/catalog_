@@ -23,3 +23,14 @@ li {
 .marginTop {
   margin-top: 1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  ul {
+    margin-left: 1rem;
+  }
+
+  p,
+  li {
+    font-size: 0.8rem;
+  }
+}

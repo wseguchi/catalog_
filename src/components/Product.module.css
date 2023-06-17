@@ -32,6 +32,27 @@
 }
 
 .icon:hover {
-  font-size: 2rem;
   color: #ffc933;
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    gap: 1rem;
+  }
+
+  .info {
+    gap: 1.2rem;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+
+  .product h1 {
+    margin-bottom: 0rem;
+  }
+
+  .preco {
+    font-size: 0.9rem;
+  }
 }

@@ -24,3 +24,17 @@
 .header :global(.active) {
   background-color: #ffc933;
 }
+
+@media only screen and (max-width: 600px) {
+  .link {
+    font-size: 0.9rem;
+  }
+
+  .header {
+    margin-bottom: 1rem;
+  }
+
+  .header ul {
+    gap: 0.5rem;
+  }
+}

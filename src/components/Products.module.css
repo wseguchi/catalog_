@@ -7,3 +7,13 @@
 .nome {
   margin: 0.8rem 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .nome {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  .products {
+    gap: 0.5rem;
+  }
+}

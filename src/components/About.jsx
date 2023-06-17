@@ -10,7 +10,7 @@ const About = () => {
       <img src={image} alt='Paper notebook in a black background' />
       <div>
         <h1>About</h1>
-        <p>A dinamic web app to display your catalog. Built with React.</p>
+        <p>A dinamic web app to display a product catalog. Built with React.</p>
         <h1 className={styles.marginTop}>Project main goals</h1>
         <ul className={styles.dados}>
           <li>
@@ -22,8 +22,11 @@ const About = () => {
           </li>
           <li>Practise routing with React Routes.</li>
           <li>
-            Fetch data from a Rest API using async functions and the useEffect
-            hook.
+            Fetch data from a{' '}
+            <a href='https://origamid.com' target='_blank' rel='noreferrer'>
+              Rest API
+            </a>{' '}
+            using async functions and the useEffect hook.
           </li>
           <li>Use CSS transitions for each section.</li>
           <li>
